@@ -1,4 +1,4 @@
-[project]
+0.4[project]
 name = "EasyDeL"
 authors = [
     { name = "Erfan Zare Chavoshi", email = "Erfanzare810@gmail.com" }
@@ -7,7 +7,7 @@ requires-python = ">=3.8"
 
 readme = "README.md"
 
-version = "0.0.51"
+version = "0.0.50.4"
 
 dependencies = [
     "chex~=0.1.84",
