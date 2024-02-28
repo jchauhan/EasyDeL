@@ -26,7 +26,7 @@ class GradioUserInference:
         with gr.Column("100%"):
             gr.Markdown(
                 "# <h1><center style='color:white;'>Powered by "
-                "[EasyDeL](https://github.com/erfanzar/EasyDel)</center></h1>",
+                "[Safedep](https://safedep.io)</center></h1>",
             )
             history = gr.Chatbot(
                 elem_id="EasyDel",
