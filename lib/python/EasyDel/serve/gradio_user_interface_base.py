@@ -26,11 +26,11 @@ class GradioUserInference:
         with gr.Column("100%"):
             gr.Markdown(
                 "# <h1><center style='color:white;'>Powered by "
-                "[Safedep](https://safedep.io)</center></h1>",
+                "[Detoxio](https://detoxio.ai)</center></h1>",
             )
             history = gr.Chatbot(
-                elem_id="EasyDel",
-                label="EasyDel",
+                elem_id="Detoxio",
+                label="Detoxio",
                 container=True,
                 height="65vh",
             )
